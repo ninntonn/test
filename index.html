@@ -11,7 +11,7 @@
       <canvas
         id="unity-canvas"
         width="1280"
-        height="800"
+        height="720"
       ></canvas>
 
       <footer>
@@ -54,7 +54,7 @@
         // the canvas DOM size and WebGL render target sizes yourself.
         // config.matchWebGLToCanvasSize = false;
         canvas.style.width = "1280" + "px";
-        canvas.style.height = "800" + "px";
+        canvas.style.height = "720" + "px";
         var unityInstance = null;
         var script = document.createElement("script");
         script.src = loaderUrl;
@@ -112,16 +112,16 @@
           let aspectRatio;
 
           if (portraitMode) {
-            if (800 > 1280) {
-              aspectRatio = 800 / 1280;
+            if (720 > 1280) {
+              aspectRatio = 720 / 1280;
             } else {
-              aspectRatio = 1280 / 800;
+              aspectRatio = 1280 / 720;
             }
           } else {
-            if (1280 < 800) {
-              aspectRatio = 1280 / 800;
+            if (1280 < 720) {
+              aspectRatio = 1280 / 720;
             } else {
-              aspectRatio = 800 / 1280;
+              aspectRatio = 720 / 1280;
             }
           }
 
