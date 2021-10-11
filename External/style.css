@@ -45,6 +45,10 @@ img.don_button:active {
     top: 3px;
 }
 
+img input {
+    display: none;
+}
+
 button {
     width: auto;
     padding: 0;
