@@ -9,25 +9,9 @@ body {
   overflow: visible;
   padding: 0;
   margin: 0;
-  display: inline;
 }
 
 .webgl-content {
   padding-bottom: 2.5rem;
 }
 
-/* twitter画像をホバーした */
-img.don_button:hover {
-    /* 透明度を上げることで、画像の色を薄く見せる。*/
-    opacity: 0.5;
-    /* リンクをホバーしたときのカーソルにする。*/
-    cursor: pointer;
-}
-
-/* twitter画像をクリックした瞬間 */
-img.don_button:active {
-    /* 要素を若干下に下げることで、押した感じを出す。*/
-    /* 今いる位置から相対的に3px下に配置する。*/
-    position: relative;
-    top: 3px;
-}
